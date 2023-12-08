@@ -1,0 +1,139 @@
+* {
+  color: black;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.con {
+  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  width: 500px;
+  gap: 0px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+}
+
+img {
+  height: 70px;
+  margin: 5px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+button {
+  border: 2px solid white;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  color: black;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: xx-large;
+}
+
+#midcon {
+  width: inherit;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+#midcon p {
+  margin: 3px;
+  font-weight: bold;
+}
+
+#midcon button {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+
+#midcon div {
+  position: relative;
+}
+
+#div1 {
+  top: 20px;
+}
+
+#div2 {
+  top: 25px;
+}
+
+#div3 {
+  top: 40px;
+}
+
+#firstp {
+  color: white;
+}
+
+#div4 {
+  top: 60px;
+}
+
+#div5 {
+  top: 65px;
+}
+
+#div6 {
+  top: 80px;
+}
+
+#hit,
+#stand {
+  opacity: 0;
+}
+
+.downcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: inherit;
+  padding: 15px;
+}
+
+.downcon p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.downcon button {
+  background-color: rgb(221, 81, 49);
+  height: 28px;
+  padding: auto;
+  width: 40px;
+  border-radius: 14px;
+  font-size: 12px;
+}
+
+.downcon :nth-child(3) {
+  width: 90px;
+}
